@@ -1,4 +1,4 @@
-package ru.kvant_telecom.tv.utils.rest;
+package ru.geekbrains.dreamworkerln.spring.utils;
 
 import org.springframework.http.client.ClientHttpResponse;
 import org.springframework.web.client.ResponseErrorHandler;

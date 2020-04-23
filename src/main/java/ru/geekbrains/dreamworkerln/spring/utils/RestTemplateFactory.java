@@ -1,4 +1,4 @@
-package ru.kvant_telecom.tv.utils.rest;
+package ru.geekbrains.dreamworkerln.spring.utils;
 
 import org.apache.http.HttpRequest;
 import org.apache.http.HttpResponse;
@@ -79,19 +79,6 @@ public class RestTemplateFactory {
                 //System.out.println(response);
 
                 isRedirected = super.isRedirected(request, response, context);
-
-//                // If redirect intercept intermediate response.
-//                if (isRedirected) {
-//                    int statusCode  = response.getStatusLine().getStatusCode();
-//                    System.out.println("redirectURL: " + redirectURL);
-//                    lastRedirect = response.getFirstHeader("Location").getValue();
-//                }
-//                else {
-//                    if (lastRedirect != null) {
-//                        response.setHeader(X_LAST_URI, lastRedirect);
-//                    }
-//
-//                }
 
                 // If redirected then add X_LAST_URI header
                 response.setHeader(X_LAST_URI, request.getRequestLine().getUri());
