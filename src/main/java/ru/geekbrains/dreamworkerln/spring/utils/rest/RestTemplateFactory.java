@@ -1,4 +1,4 @@
-package ru.geekbrains.dreamworkerln.spring.utils;
+package ru.geekbrains.dreamworkerln.spring.utils.rest;
 
 import org.apache.http.HttpRequest;
 import org.apache.http.HttpResponse;

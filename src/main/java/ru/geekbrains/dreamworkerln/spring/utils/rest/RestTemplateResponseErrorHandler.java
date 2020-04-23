@@ -1,4 +1,4 @@
-package ru.geekbrains.dreamworkerln.spring.utils;
+package ru.geekbrains.dreamworkerln.spring.utils.rest;
 
 import org.springframework.http.client.ClientHttpResponse;
 import org.springframework.web.client.ResponseErrorHandler;
