@@ -12,7 +12,7 @@
     <groupId>ru.geekbrains.dreamworkerln.spring</groupId>
     <artifactId>dreamworkerln-common-utils</artifactId>
     <version>0.1</version>
-    <name>utils</name>
+    <name>common utils</name>
     <description>Library for Spring Boot</description>
 
     <properties>
