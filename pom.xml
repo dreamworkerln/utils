@@ -10,8 +10,8 @@
     </parent>
 
     <groupId>ru.geekbrains.dreamworkerln.spring</groupId>
-    <artifactId>utils</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <artifactId>dreamworkerln-common-utils</artifactId>
+    <version>0.1</version>
     <name>utils</name>
     <description>Library for Spring Boot</description>
 
